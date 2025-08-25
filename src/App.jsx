@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="bg-gray-50">
       <Navbar></Navbar>
          <Hero></Hero>
          <Logo></Logo>
