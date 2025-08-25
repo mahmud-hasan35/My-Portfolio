@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Fourms Side",
+    "description": "A forum-style project where users can post, comment, and interact with each other.",
+    "image": "/src/assets/fourm-side.PNG",
+    "tech": ["React", "Tailwind", "Firebase","MongoDB"],
+    "github": "https://github.com/yourname/fourms-side",
+    "demo": "https://forum-project-ee65e.web.app"
+  },
+  {
+    "id": 2,
+    "title": "Plant Side",
+    "description": "A plant care website where users can explore new plants, tips, and manage their collection.",
+    "image": "/src/assets/plant.PNG",
+    "tech": ["React", "Firebase", "Express"],
+    "github": "https://github.com/yourname/plant-side",
+    "demo": "https://plant-side.web.app/"
+  },
+  {
+    "id": 3,
+    "title": "Book Website",
+    "description": "An online book library with search, filter, cart, and favorites features.",
+    "image": "/src/assets/Book.PNG",
+    "tech": ["React", "Tailwind", "Node.js"],
+    "github": "https://github.com/mahmud-hasan35/Divine-book",
+    "demo": "https://book-website.vercel.app"
+  },
+  {
+    "id": 4,
+    "title": "Coffee Website",
+    "description": "A coffee shop website with product showcase, cart system, and order management.",
+    "image": "/src/assets/coffee.PNG",
+    "tech": ["React", "Tailwind", "react animation"],
+    "github": "https://github.com/mahmud-hasan35/My-Coffee",
+    "demo": "https://my-coffee-five.vercel.app"
+  }
+]

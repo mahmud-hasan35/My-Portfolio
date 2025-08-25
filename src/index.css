@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Custom marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Color cycle for each logo */
+@keyframes colorCycle {
+  0% { filter: drop-shadow(0 0 10px #f00); }
+  20% { filter: drop-shadow(0 0 10px #0f0); }
+  40% { filter: drop-shadow(0 0 10px #00f); }
+  60% { filter: drop-shadow(0 0 10px #ff0); }
+  80% { filter: drop-shadow(0 0 10px #0ff); }
+  100% { filter: drop-shadow(0 0 10px #f0f); }
+}
+
+/* Apply color cycle to each logo with different delay */
+.logo-glow img {
+  animation: colorCycle 5s linear infinite;
+}
+
+/* Different delays for each logo */
+.logo-glow img:nth-child(1) { animation-delay: 0s; }
+.logo-glow img:nth-child(2) { animation-delay: 0.5s; }
+.logo-glow img:nth-child(3) { animation-delay: 1s; }
+.logo-glow img:nth-child(4) { animation-delay: 1.5s; }
+.logo-glow img:nth-child(5) { animation-delay: 2s; }
+.logo-glow img:nth-child(6) { animation-delay: 2.5s; }
+.logo-glow img:nth-child(7) { animation-delay: 3s; }
+.logo-glow img:nth-child(8) { animation-delay: 3.5s; }
+.logo-glow img:nth-child(9) { animation-delay: 4s; }
+.logo-glow img:nth-child(10) { animation-delay: 4.5s; }
+
+
+.logo-container {
+  position: relative;
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+
+.logo-container::before,
+.logo-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #f00, #0f0, #00f, #ff0, #0ff, #f0f);
+}
+
+.logo-container::before {
+  top: 0;  
+}
+
+.logo-container::after {
+  bottom: 0; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+/* slick carousel default styles */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
