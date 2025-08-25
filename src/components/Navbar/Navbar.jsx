@@ -33,7 +33,7 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              className="ml-4 bg-yellow-300 text-black px-4 py-2 rounded-lg shadow hover:bg-yellow-400 transition duration-200"
+              className="ml-4 font-semibold bg-yellow-400 text-white px-4 py-2 rounded-lg shadow hover:bg-yellow-500 transition duration-200"
             >
               Hire Me
             </a>
@@ -87,7 +87,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="block px-4 py-3 bg-yellow-300 text-black font-semibold hover:bg-yellow-400"
+            className="block px-4 py-3 bg-yellow-400 text-white font-semibold hover:bg-yellow-500"
           >
             Hire Me
           </a>

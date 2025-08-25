@@ -37,10 +37,10 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <a
-              href="#"
-              className="px-6 py-3 text-base sm:px-8 sm:py-3 sm:text-lg font-semibold rounded bg-yellow-300 text-black hover:bg-yellow-400 transition"
+              href="#projects"
+              className="px-6 py-3 text-base sm:px-8 sm:py-3 sm:text-lg font-semibold rounded bg-yellow-400 text-white hover:bg-yellow-500 transition"
             >
-              Suspendisse
+              Veiw Projects
             </a>
             <a
               href={CV}
