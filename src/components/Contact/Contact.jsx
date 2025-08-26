@@ -53,7 +53,7 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex space-x-5 sm:space-x-6 mt-4">
               <a
-                href="https://facebook.com/yourprofile"
+                href="https://www.facebook.com/mahdi.job.3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-600 text-xl sm:text-2xl transition"
@@ -61,7 +61,7 @@ const Contact = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://github.com/yourprofile"
+                href="https://github.com/mahmud-hasan35"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white text-xl sm:text-2xl transition"
@@ -69,7 +69,7 @@ const Contact = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/mahmud-hasan-030904312/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-500 text-xl sm:text-2xl transition"

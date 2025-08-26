@@ -37,13 +37,13 @@ const Footer = () => {
         <div className="flex-1">
           <h3 className="text-xl font-semibold text-white mb-4">Follow Me</h3>
           <div className="flex gap-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
+            <a href="https://www.facebook.com/mahdi.job.3" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
               <FaFacebookF size={20} />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 transition-colors">
+            <a href="https://github.com/mahmud-hasan35" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 transition-colors">
               <FaGithub size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/mahmud-hasan-030904312/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <FaLinkedinIn size={20} />
             </a>
           </div>
